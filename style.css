@@ -1,0 +1,47 @@
+*{
+    font-style: none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    color: white;
+    background-color: hsl(0, 0%, 8%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.profil{
+    border-radius: 50%;
+}
+.lieu{
+    color: hsl(75, 94%, 57%);
+}
+.card{
+    background-color: hsl(0, 0%, 12%);
+    padding: 8%; 
+    border-radius: 9px;
+    text-align: center;
+    margin-top: 50%;
+}
+h1{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.lieu{
+    margin-bottom: 30px;
+}
+.desc{
+    margin-bottom: 15px;
+}
+.card ul li a {
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    
+    margin: 16px;
+    padding: 14px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+}
